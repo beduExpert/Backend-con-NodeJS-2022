@@ -1,0 +1,31 @@
+{
+  "name": "ejemplo03",
+  "version": "1.0.0",
+  "description": "## Objetivo",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "npx nodemon --delay 500ms --exec babel-node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "apollo-server-errors": "^3.3.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2",
+    "winston": "^3.6.0",
+    "winston-daily-rotate-file": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

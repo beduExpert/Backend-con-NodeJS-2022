@@ -1,0 +1,17 @@
+{
+  "name": "reto02",
+  "version": "1.0.0",
+  "description": "## Objetivo 🎯 Levantar nuestra primer instancia de `graphql` con la ayuda de `express`",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --delay 500ms src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0"
+  }
+}

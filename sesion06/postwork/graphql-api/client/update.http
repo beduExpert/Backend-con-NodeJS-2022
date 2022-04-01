@@ -1,0 +1,12 @@
+### Update the title of the 3rd live
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmdWxsTmFtZSI6IkJldG8gQmVkdSIsImVtYWlsIjoiYmV0b0BiZWR1Lm9yZyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0NzQ3ODIyOCwiZXhwIjoxNjQ3NDc4NDA4fQ.KXSdarIUIL541UtoUpf_t_xy303SFP8WtK3pTpvcwTk
+
+mutation {
+  updateLive(id: "6f27f4be-2053-4c01-a203-43f9a876b0e4", title: "DevSecOps") {
+    id
+    title
+  }
+}
