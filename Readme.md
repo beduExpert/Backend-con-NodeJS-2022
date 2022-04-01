@@ -10,21 +10,13 @@ Aprenderás a crear aplicaciones CLI y web con Javascript y también algunos de 
 Cualquier persona interesada en aprender temas de nivel intermedio de Javascript y NodeJS.
 No es obligatorio pero es recomendable tener una formación previa en alguna carrera de informática, un curso previo de programación o experiencia básica programando en javascript.
 
-
 ### Organización Del Módulo
 
- - [Sesión 1: Fundamentos de Node.js](./Sesion-01)
-
- - [Sesión 2: Modulos esenciales](./Sesion-02)
-
- - [Sesión 3: Javascript asíncrono en NodeJS](./Sesion-03)
-
- - [Sesión 4: Desarrollo de Aplicaciones CLI](./Sesion-04)
-
- - [Sesión 5: Desarrollo de aplicaciones Web](./Sesion-05)
-
- - [Sesión 6: Desarrolo de API RESTful I](./Sesion-06)
-
- - [Sesión 7: Desarrolo de API RESTful I](./Sesion-07)
-
- - [Sesión 8: Desarrolo de API RESTful I](./Sesion-08)
+- [Sesión 1: Fundamentos de Node.js](./sesion01)
+- [Sesión 2: Introducción a GraphQL](./sesion02)
+- [Sesión 3: Setup de un entorno de desarrollo](./sesion03)
+- [Sesión 4: Introducción a Apollo Server](./sesion04)
+- [Sesión 5: Persistencia en BD](./sesion05)
+- [Sesión 6: Auth layer](./sesion06)
+- [Sesión 7: Migración a TypeScript](./sesion07)
+- [Sesión 8: Conexión de un cliente UI](./sesion08)

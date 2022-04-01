@@ -1,0 +1,16 @@
+{
+  "name": "reto01",
+  "version": "1.0.0",
+  "description": "## Objetivo 🎯",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0"
+  }
+}

@@ -1,0 +1,50 @@
+### Insert a book
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+mutation {
+  insertBook(
+    asin: "B00DQ845EA",
+    title: "The Hard Thing About Hard Things",
+    author: "Ben Horowitz", 
+    pages: 308
+  ) {
+    asin
+    title
+  }
+}
+
+### Insert a book
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+mutation {
+  insertBook(
+    asin: "B00ICN066A",
+    title: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari", 
+    pages: 469
+  ) {
+    asin
+    title
+  }
+}
+
+### Insert a book
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+mutation {
+  insertBook(
+    asin: "B015NTIXWE",
+    title: "Ego Is the Enemy",
+    author: "Ryan Holiday", 
+    pages: 247
+  ) {
+    asin
+    title
+  }
+}

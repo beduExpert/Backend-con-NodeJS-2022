@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2018"
+    ],
+    "module": "CommonJS",
+    "target": "es2018",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+  }
+}

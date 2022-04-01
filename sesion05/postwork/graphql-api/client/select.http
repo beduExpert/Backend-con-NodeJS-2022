@@ -1,0 +1,25 @@
+### Obtener todos los lives
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+query {
+  getAllLives {
+    id
+    title
+  }
+}
+
+### Obtener un solo live
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+query {
+  getLive(id: "6f27f4be-2053-4c01-a203-43f9a876b0e4") {
+    title
+    subtitle
+  }
+}
+
+

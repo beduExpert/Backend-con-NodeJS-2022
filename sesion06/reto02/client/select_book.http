@@ -1,0 +1,48 @@
+### Obtener todos los libros sin token
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+query {
+  getAllBooks {
+    asin
+    title
+  }
+}
+
+### Obtener todos los libros con token
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmdWxsTmFtZSI6IkJldG8gQmVkdSIsImVtYWlsIjoiYmV0b0BiZWR1Lm9yZyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0NzQ1NzE3MSwiZXhwIjoxNjQ3NDU3MzUxfQ.O2q6WnvVnbFRP8AhpK6rsGcvb12SPPsWhTVFU7dIxPI
+
+query {
+  getAllBooks {
+    asin
+    title
+  }
+}
+
+### Obtener un solo libro sin token
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+
+query {
+  getBook(asin: "B00ICN066A") {
+    asin
+    title
+  }
+}
+### Obtener un solo libro con token
+POST http://127.0.0.1:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmdWxsTmFtZSI6IkJldG8gQmVkdSIsImVtYWlsIjoiYmV0b0BiZWR1Lm9yZyIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0NzQ1NzE3MSwiZXhwIjoxNjQ3NDU3MzUxfQ.O2q6WnvVnbFRP8AhpK6rsGcvb12SPPsWhTVFU7dIxPI
+
+query {
+  getBook(asin: "B00ICN066A") {
+    asin
+    title
+  }
+}
