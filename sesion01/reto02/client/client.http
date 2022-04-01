@@ -1,8 +1,0 @@
-### Base call
-GET http://127.0.0.1:3000/ HTTP/1.1
-### /hola request
-GET http://127.0.0.1:3000/hola HTTP/1.1
-### /ping request
-GET http://127.0.0.1:3000/ping HTTP/1.1
-### /health request
-GET http://127.0.0.1:3000/health HTTP/1.1
