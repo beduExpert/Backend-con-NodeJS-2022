@@ -1,4 +1,4 @@
-# Reto 02: ...
+# Reto 02: Apollo Server con ES6+
 
 ## Objetivo 🎯
  
