@@ -20,7 +20,7 @@ En este módulo aprenderemos:
 
 Comencemos por conocer la configuración y ejecución de comandos en `sequelize`
 
-- [**`Ejemplo 1: Conexión a BD`**](./ejemplo03)
+- [**`Ejemplo 1: Conexión a BD`**](./ejemplo01)
 - [**`Reto 1: Manipulación de datos en BD`**](./reto01)
 
 ---
