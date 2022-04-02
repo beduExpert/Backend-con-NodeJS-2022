@@ -9,7 +9,6 @@
 
 * Haber configurado `sequelize` y el modelo `Book`
 * Tener `Apollo Server` configurado de acuerdo a lo visto en la [sesión 04](../../sesion04/)
-* ...
 
 ## Desarrollo
 
