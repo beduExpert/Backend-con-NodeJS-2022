@@ -7,9 +7,7 @@
 
 ## Requerimientos
 
-* 
-* 
-* 
+* Haber concluido el [ejemplo 01](../ejemplo01/)
 
 ## Desarrollo
 
