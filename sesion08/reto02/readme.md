@@ -1,4 +1,4 @@
-# Reto 02: ...
+# Reto 02: Mutación para guardar usuarios
 
 ## Objetivo 🎯
 
