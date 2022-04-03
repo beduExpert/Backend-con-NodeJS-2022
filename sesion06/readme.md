@@ -22,7 +22,7 @@ Conozcamos `JWT` y `bcrypt` que son la tecnología base para hacer nuestra capa 
 
 - [**`Ejemplo 1: bcrypt `**](./ejemplo01)
 - [**`Ejemplo 2: jwt`**](./ejemplo02)
-- [**`Reto 1: Generación y persistencia de modelo de Usuario (signUp)`**](./reto01)
+- [**`Reto 1: Registro de usuarios con password hasheado con bcrypt`**](./reto01)
 
 ---
 
