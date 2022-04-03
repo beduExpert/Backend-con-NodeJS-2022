@@ -1,4 +1,4 @@
-# Reto 01: ...
+# Reto 01: ejecución de más queries
 
 ## Objetivo 🎯
 
