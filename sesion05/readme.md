@@ -30,7 +30,7 @@ Comencemos por conocer la configuración y ejecución de comandos en `sequelize`
 Ahora que ya tenemos la conexión a la BD podemos realizar las operaciones básicas con llamadas desde operaciones de GraphQL.
 
 - [**`Ejemplo 2: Queries a books`**](./ejemplo02)
-- [**`Reto 2: Insert de datos`**](./reto02)
+- [**`Reto 2: create y findOne`**](./reto02)
 - [**`Reto 3: Update de datos`**](./reto03)
 
 ---
